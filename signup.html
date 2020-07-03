@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>Sign Up-Tend 2 Bid</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<!-- font awesome cdn -->
+	<script src="https://kit.fontawesome.com/234d915b29.js" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="/signin.css">
+</head>
+
+<body>
+
+	<header class="header">
+		<!-- NAV BAR -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+	
+		  <div class="container-fluid">
+	
+			<div class="d-flex align-items-center">
+			  <!-- LOGO -->
+			  <a class="navbar-brand" href="/homepage.html"> <img src="\logo.png" width="30" height="30" alt="LOGO"> <b>TEND 2 BID</b> </a>
+			</div>
+	
+			<button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse"
+			  data-target="#navbarCollapse" aria-label="Toggle Navigation" aria-controls="navbarCollapse"
+			  aria-expanded="false">
+			  <i class="fas fa-bars"></i>
+			</button>
+	
+			<div class="navbar-collapse collapse" id="navbarCollapse">
+			  <ul class="navbar-nav ml-auto">
+				<li class="nav-item dropdown">
+				  <a href="homepage.html" class="nav-link">
+					Home
+				  </a>
+				</li>
+				<li class="nav-item dropdown">
+				  <a href="#" class="nav-link">
+					Contact
+				  </a>
+				</li>
+				<li class="nav-item dropdown">
+				  <a href="/login.html" class="nav-link">
+					Sign In
+				  </a>
+				</li>
+			  </ul>
+			</div>
+		  </div>
+		</nav>
+	  </header>
+
+	<div class="container">
+	  <div class="row">
+		<div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+		  <div class="card card-signin my-5">
+			<div class="card-body">
+			  <h5 class="card-title text-center">Sign Up</h5>
+			  <form class="form-signin">
+                
+                <div class="form-label-group">
+                    <input type="text" class="form-control" placeholder="First name" required autofocus>
+                    <label for="inputFirstName">First Name</label>
+                </div>
+
+                <div class="form-label-group">
+                    <input type="text" class="form-control" placeholder="Last name" required>
+                    <label for="inputLastName">Last Name</label>
+                </div>
+
+                <div class="form-label-group">
+				  <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
+				  <label for="inputEmail">Email address</label>
+				</div>
+  
+				<div class="form-label-group">
+				  <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+				  <label for="inputPassword">Password</label>
+                </div>
+                
+                <div class="form-label-group">
+                    <input type="password" id="inputConfirmPassword" class="form-control" placeholder="Password" required>
+                    <label for="inputConfirmPassword">Confirm Password</label>
+                </div>
+  
+				<button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign Up</button>
+				<hr class="my-4">
+				<button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Register with Google</button>
+				<button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Register with Facebook</button>
+			  </form>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+
+	<footer id="sticky-footer" class="py-4 bg-light text-black-50">
+		<div class="container text-center">
+		  <p class="lead"><small>Copyright &copy; TEND 2 BID</small></p>
+		</div>
+	  </footer>
+  </body>
+
+</html>

@@ -1,0 +1,40 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+}
+
+#container-2 {
+    width: auto;
+    height: 500px;
+}
+
+
+/*search box css start here*/
+
+
+.search-sec{
+    padding: 5rem;
+    background-color: rgb(204, 202, 175);
+    background-image: url(https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80);
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+

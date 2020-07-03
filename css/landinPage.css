@@ -1,0 +1,119 @@
+/*
+
+    font-family: 'Noto Sans JP', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+
+
+    */
+
+/*header css goes here*/
+.header
+{
+    background-color: #4169E1;
+    padding: 2% 2%;
+}
+.logo
+{
+    width:10%;
+}
+
+/*----top section goes here------*/
+
+
+/*....................................title section..................................*/
+.container-fluid
+{
+	padding: 3% 15%;
+}
+#top
+{
+    width: 100%;
+    padding: 0 7%;
+    display: table;
+    margin: 0;
+    max-width: none;
+    background-color: #373B44;
+    height: 100vh;
+    background-image:url("../images/top-image.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+  
+    
+
+@media (max-width: 1028px)
+{
+
+	.boss
+	{
+	position: static;
+	}
+}
+
+.download-button
+{
+	margin: 5% 3% 5% 0%;
+}
+
+/*navbar css goes here*/
+/*....................navbar....................................*/
+
+.navbar
+{
+    background-color: #87CEEB;
+    margin: 0% 10%;
+    padding: 2%;
+}
+
+.nav-item
+{
+
+    margin:2% 5%;
+
+
+}
+
+
+.navbar-brand img
+{
+	width:40px;
+	height: 40px;
+}
+
+
+
+.college-logo
+{
+
+    width: 15%;
+
+}
+
+/*  headings css */
+h1
+{
+
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size : 3rem;
+    color: royalblue;
+
+}
+
+h2
+{
+
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    padding-top: 30%;
+
+}
+
+
+/*footer css goes here*/
+.footer
+{
+    background-color:#87CEEB;
+    margin-top:3%;
+    padding: 3%;
+}
